@@ -4,29 +4,32 @@ A beginner-friendly FastAPI project showcasing basic API routes, JSON responses,
 
 ## Features
 
-- Blog API endpoints (GET, POST)
-- Query parameters for filtering
-- Pydantic models for data validation
-- Comments system
+* Blog API endpoints (GET, POST)
+* Query parameters for filtering
+* Pydantic models for data validation
+* Comments system
 
 ## Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/sohaib25225-gif/Fast-API.git
+git clone https://github.com/talharizwan166-code/Fast\_API.git
 cd Fast-API
 ```
 
 2. Create and activate virtual environment:
+
 ```bash
 python -m venv venv
 # Windows
-venv\Scripts\activate
+venv\\Scripts\\activate
 # Linux/Mac
 source venv/bin/activate
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -45,7 +48,7 @@ Visit: http://127.0.0.1:9000/docs for interactive API documentation
 Fast-API/
 ├── main.py              # Your main FastAPI application
 ├── blog/                # Blog module
-│   ├── __init__.py
+│   ├── \_\_init\_\_.py
 │   └── main.py
 ├── app/                 # Empty folder for future scaling
 │   ├── routers/         # Future: API route handlers
@@ -61,12 +64,13 @@ Fast-API/
 
 ## API Endpoints
 
-- `GET /blog` - Get list of blogs
-- `GET /blog/unpublished` - Get unpublished blogs
-- `GET /blog/{id}` - Get blog by ID
-- `GET /blog/{id}/comments` - Get blog comments
-- `POST /blog` - Create new blog
+* `GET /blog` - Get list of blogs
+* `GET /blog/unpublished` - Get unpublished blogs
+* `GET /blog/{id}` - Get blog by ID
+* `GET /blog/{id}/comments` - Get blog comments
+* `POST /blog` - Create new blog
 
 ## License
 
 MIT License
+
