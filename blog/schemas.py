@@ -10,7 +10,11 @@ class ShowBlog(BaseModel):
     body: str
     
     class Config():
-        orm_mode = True
+        from_attributes = True
+
+class Login(BaseModel):
+    email: str
+    password: str
 
 class User(BaseModel):
     name: str
@@ -23,4 +27,4 @@ class ShowUser(BaseModel):
     email: str
     
     class Config():
-        orm_mode = True
+        from_attributes = True
